@@ -4,11 +4,13 @@ import "./products.css";
 import Card from '../components/Card';
 // import {data} from '../db/data';
 
-const Products = () => {
+const Products = ({result}) => {
   return (
    <>
    <section className="card-container">
-   <Card/>
+    {result
+    }
+
    </section>
    </>
   )

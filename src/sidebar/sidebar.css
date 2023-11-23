@@ -1,12 +1,14 @@
-.logo-container {
-    margin-bottom: 1rem;
-}
+
 
 .cart-logo{
-    margin-top: 10px;
-    width: 50px;
-    height: 50px;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
   
+}
+.all {
+    background: linear-gradient(blue, crimson);
 }
 
 .sidebar {
@@ -22,5 +24,6 @@
 }
 
 .logo-container h1 {
-    margin-top: 1.3rem;
+     margin-bottom: 1rem;
+    font-size: 23px;
 }

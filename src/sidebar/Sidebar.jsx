@@ -5,7 +5,8 @@ import Price from "./Price/Price";
 import CartLogo from "../assets/images/cart.gif";
 import"./sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = ({handleChange}) => {
+
   return (
     <>
     <section className="sidebar">
@@ -13,9 +14,9 @@ const Sidebar = () => {
            <img src={CartLogo} alt="cart logo" className="cart-logo" />
            <h1>ShoeCart</h1>
         </div>
-        <Category/>
-        <Price/>
-        <Colors/>
+        <Category handleChange={handleChange}/>
+        <Price handleChange={handleChange}/>
+        <Colors handleChange={handleChange}/>
     </section>
     </>
   )
